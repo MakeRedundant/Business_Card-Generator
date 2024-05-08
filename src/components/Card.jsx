@@ -9,6 +9,7 @@ import { HeadingStyled } from "../styled/Headings";
 import Introduction from "./Introduction";
 import About from "./About";
 import Email from "./Email";
+import Phone from "./Phone";
 import location from "../assets/profile_picture.webp";
 import { Button } from "../styled/UserInputSection";
 import { Tilt } from "react-tilt";
@@ -34,6 +35,7 @@ const Card = (props) => {
             <IntroductionWrapperStyled>
                 <Introduction name={props.name} occupation={props.occupation} website={props.website} colors={props.colors} />
                 <About about={props.about} services={props.services} colors={props.colors} />
+                <Phone phone={props.phone} colors={props.colors} />
                 <Email email={props.email} colors={props.colors} />
             </IntroductionWrapperStyled>
         </MainContentWrapperStyled>
@@ -93,11 +95,12 @@ Card.defaultProps = {
   email: "brian.trang@hotmail.com",
   occupation: "Software Engineer",
   website: "https://brian-trang-portfolio.netlify.app",
+  phone: "0421999442",
   linkedin: "https://www.linkedin.com/in/brian-t-99916a118",
   about: (
     <>
       <div>
-        My name is Brian, and I'm a software engineer 💻 based in Australia, Sydney 🦘 🐨.
+        My name is Brian, and I&lsquo;m a software engineer 💻 based in Australia, Sydney 🦘 🐨.
       </div>
       <div>
         I like to eat good clothes 👔 and wear good food 🍔
@@ -106,7 +109,6 @@ Card.defaultProps = {
   ),
   services:
     "I offer Full stack development skills ",
-  
   github: "https://github.com/MakeRedundant",
   image_src: location,
 };

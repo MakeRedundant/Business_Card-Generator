@@ -23,7 +23,8 @@ function App() {
     website: undefined,
     email: undefined,
     about: undefined,
-    services: undefined
+    services: undefined,
+    phone: undefined
   });
   const [breakpoint, setBreakpoint] = useState(Math.round(window.document.body.clientWidth / 16));
   const [colors, setColors] = useState({
@@ -270,7 +271,8 @@ function App() {
           <Input type="file" accept="image/*" onChange={(e) => { setIsImageModified({ status: true, fileType: e.target.files[0].type.split("/")[0], target: e.target }); input_check(); }} id="image" placeholder="Upload an image" required />
           <Input type="text" name="name" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.name || ""} id="name" placeholder="Name" required autoComplete="off" />
           <Input type="text" name="occupation" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.occupation || ""} id="occupation" placeholder="Profession" required autoComplete="off" />
-          <Input type="text" name="website" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.website || ""} id="website" placeholder="Website" required autoComplete="off" />
+          <Input type="text" name="website" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.website || ""} id="website" placeholder="Website/Socials/Etc" required autoComplete="off" />
+          <Input type="tel" name="phone" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.phone || ""} id="phone" placeholder="Phone" required autoComplete="off" />
           <Input type="email" name="email" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.email || ""} id="email" placeholder="Email" required autoComplete="off" />
           <Textarea type="text" name="about" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.about || ""} id="about" placeholder="A little bit about you.." rows="5" required autoComplete="off" />
           <Textarea type="text" name="services" onChange={(e) => { inputChange(e); input_check(); }} value={inputs.services || ""} id="interests" placeholder="Services offered..." rows="5" required autoComplete="off" />
@@ -285,7 +287,7 @@ function App() {
           </ThemesWrap>
           <Button className="for-desktop download_btn" disabled={downloadable ? false : true} title={downloadable ? "" : "Please fill out all fields"} onClick={() => { download_image() }}>Download<i className={downloadState ? "fas fa-circle-notch load" : "fas fa-download"}></i></Button>
         </UserInputWrap>
-        <Card name={props_conf('name')} occupation={props_conf('occupation')} website={props_conf('website')} email={props_conf('email')} linkedin about={props_conf('about')} services={props_conf('services')} github twitter instagram colors={colors} download_fun={download_image} image_src={image} download_state={downloadState} breakpoint={breakpoint} downloadable={downloadable} />
+        <Card name={props_conf('name')} occupation={props_conf('occupation')} website={props_conf('website')} email={props_conf('email')} phone={props_conf('phone')} linkedin about={props_conf('about')} services={props_conf('services')} github twitter instagram colors={colors} download_fun={download_image} image_src={image} download_state={downloadState} breakpoint={breakpoint} downloadable={downloadable} />
       </main>
       <Footer />
     </>

@@ -127,9 +127,20 @@ export const SocialsStyled = styled.div`
 `;
 
 export const EmailStyled = styled(SocialsStyled)`
-    font-size: 0.8rem;
+    font-size: 1.0rem;
     font-family: 'Poppins', sans-serif;
     padding: 0.8rem 0.5rem;
+    color: ${props => props.colors.emailColor};
+    background-color: ${props => props.colors.emailBackgroundColor};
+`;
+
+export const PhoneStyled = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem 0.3rem;
+    font-size: 1.0rem;
+    font-family: 'Poppins', sans-serif;
     color: ${props => props.colors.emailColor};
     background-color: ${props => props.colors.emailBackgroundColor};
 `;
