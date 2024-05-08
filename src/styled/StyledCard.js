@@ -44,18 +44,18 @@ export const IntroductionStyled = styled.div`
         text-align: center;
     }
     .name{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         font-family: 'Poppins', sans-serif;
         font-weight: bold;
         color: ${props => props.colors.nameColor}
     }
     .occupation{
-        font-size: 0.8rem;
+        font-size: 1.0rem;
         font-family: 'Lato', sans-serif;
         color: ${props => props.colors.occupationColor};
     }
     .website{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
         margin-top: 0.5rem;
         color: ${props => props.colors.websiteColor};
         font-family: 'Inter', sans-serif;
@@ -100,7 +100,7 @@ export const AboutWrapper = styled.div`
     }
     .title, .desc{
         font-family: 'Inter', sans-serif;
-        font-size: 0.6rem;
+        font-size: 0.9rem;
         color: ${props => props.colors.descColor};
     }
     .title{
@@ -127,7 +127,7 @@ export const SocialsStyled = styled.div`
 `;
 
 export const EmailStyled = styled(SocialsStyled)`
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
     padding: 0.8rem 0.5rem;
     color: ${props => props.colors.emailColor};

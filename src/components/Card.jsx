@@ -90,7 +90,7 @@ const Card = (props) => {
 
 Card.defaultProps = {
   name: "Brian Trang",
-  email: "brian.trang@otmail.com",
+  email: "brian.trang@hotmail.com",
   occupation: "Software Engineer",
   website: "https://brian-trang-portfolio.netlify.app",
   linkedin: "https://www.linkedin.com/in/brian-t-99916a118",

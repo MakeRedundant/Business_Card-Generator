@@ -141,7 +141,7 @@ export const ThemesWrap = styled.div`
     align-items: center;
     width: 85%;
     gap: 1rem;
-    font-size: 0.85rem;
+    font-size: 1.35rem;
     font-family: 'Poppins', sans-serif;
     background-color: #1A1B21;
     padding: 0.7rem 1rem 1rem 1rem;
