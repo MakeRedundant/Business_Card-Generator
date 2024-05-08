@@ -10,7 +10,7 @@ export const StyledFooter = styled.div`
         font-size: 1rem;
         font-family: 'Poppins', sans-serif;
         text-align: center;
-        color: #757677;
+        color: #000000;
     }
     a{
         color: #757677;
