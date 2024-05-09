@@ -25,7 +25,7 @@ export const UserInputWrap = styled.div`
 `;
 
 export const Input = styled.input`
-    background-color: #1A1B21;
+    background-color: #170a0a;
     color: #ffffff;
     outline: none;
     border: 3px solid transparent;
@@ -38,7 +38,7 @@ export const Label = styled.label`
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    background-color: #1A1B21;
+    background-color: #170a0a;
     color: #6e6e6e;
     transition: color 0.3s ease-in-out;
     outline: none;
@@ -62,7 +62,7 @@ export const Label = styled.label`
 `;
 
 export const Textarea = styled.textarea`
-    background-color: #1A1B21;
+    background-color: #170a0a;
     color: #ffffff;
     outline: none;
     border: 3px solid transparent;
@@ -143,7 +143,7 @@ export const ThemesWrap = styled.div`
     gap: 1rem;
     font-size: 1.35rem;
     font-family: 'Poppins', sans-serif;
-    background-color: #1A1B21;
+    background-color: #170a0a;
     padding: 0.7rem 1rem 1rem 1rem;
     border-radius: 0.4rem;
 
@@ -157,7 +157,7 @@ export const ThemesWrap = styled.div`
     }
     
     p{
-        color: #6e6e6e;
+        color: #ffffff;
         margin: 0;
     }
 `;
