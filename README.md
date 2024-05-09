@@ -48,7 +48,7 @@ https://business-cards-generator.netlify.app
 ## 💡🏡 Lighthouse
 This is the Lighthouse Google report showcasing Performance 🚀, Accessibility ♿️, Best practices ✅, and SEO 🔍.
 
-![Lighthouse](./assets/Lighthouse-Portfolio.png)
+![Lighthouse](./assets/Lighthouse.png)
 
 ## 📄 Description 
 Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
@@ -193,7 +193,7 @@ Screenshot of Form
 ## 📹Video
 GIF Showing ```npm run dev``` Homepage, form input and download feature 
 as well as Email functionality
-![GIF](./assets/Business Card.gif)
+![GIF](./assets/Business-Card.gif)
   
 ## ⚖️License 
 This project is licensed under MIT
