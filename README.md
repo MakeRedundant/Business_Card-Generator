@@ -1,5 +1,5 @@
 # Business Card Generator 
-Simple Business Card Generator with a live preview and option to download the card in png format.
+Simple Business Card Generator with a live preview and option to download the card in png format.  
 https://business-cards-generator.netlify.app  
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
