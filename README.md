@@ -58,7 +58,26 @@ also contains bad humour!
 | Node.js                 | Server-side JavaScript runtime         | [Node.js](https://nodejs.org/)             |
 | NPM                     | Node.js Package Manager               | [NPM](https://www.npmjs.com/)             |
 
-| Vite                    | Frontend build tool                   | [Vite](https://vitejs.dev/)               |
+| Font Awesome            | Icon set and toolkit                  | [Font Awesome](https://fontawesome.com/)   |
+| downloadjs              | File downloading utility              | [downloadjs](https://www.npmjs.com/package/downloadjs) |
+| html-to-image           | HTML to image conversion              | [html-to-image](https://www.npmjs.com/package/html-to-image) |
+| million                 | Large number formatting               | [million](https://www.npmjs.com/package/million) |
+| mini-css-extract-plugin | Webpack plugin for extracting CSS      | [mini-css-extract-plugin](https://www.npmjs.com/package/mini-css-extract-plugin) |
+| react                   | JavaScript library for building UIs   | [react](https://reactjs.org/)             |
+| react-dom               | React rendering for the DOM           | [react-dom](https://reactjs.org/)         |
+| react-scripts           | Create React App scripts              | [react-scripts](https://www.npmjs.com/package/react-scripts) |
+| react-tilt              | React component for tilting elements  | [react-tilt](https://www.npmjs.com/package/react-tilt) |
+| styled-components       | CSS-in-JS library for styling        | [styled-components](https://styled-components.com/) |
+| web-vitals              | Web performance metrics               | [web-vitals](https://www.npmjs.com/package/web-vitals) |
+| @craco/craco            | Create React App configuration overrider | [@craco/craco](https://www.npmjs.com/package/@craco/craco) |
+| @types/react            | TypeScript type definitions for React | [@types/react](https://www.npmjs.com/package/@types/react) |
+| @types/react-dom        | TypeScript type definitions for ReactDOM | [@types/react-dom](https://www.npmjs.com/package/@types/react-dom) |
+| @vitejs/plugin-react    | Vite plugin for React apps           | [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react) |
+| eslint                  | JavaScript linter                    | [eslint](https://eslint.org/)             |
+| eslint-plugin-react     | ESLint plugin for React              | [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react) |
+| eslint-plugin-react-hooks | ESLint plugin for React Hooks      | [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks) |
+| eslint-plugin-react-refresh | ESLint plugin for React Refresh   | [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
+| vite                    | Frontend build tool                  | [vite](https://vitejs.dev/)               |
 | Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
     
 ## 🖥️Installation 
