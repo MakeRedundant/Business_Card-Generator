@@ -4,8 +4,7 @@ https://business-cards-generator.netlify.app
 
 ![Github licence](http://img.shields.io/badge/license-MIT-blue.svg)
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-Latest-yellow.svg)
-![@fortawesome/free-solid-svg-icons](https://img.shields.io/badge/@fortawesome/free-solid-svg-icons-6.5.2-ff69b4.svg)
-![@fortawesome/react-fontawesome](https://img.shields.io/badge/@fortawesome/react-fontawesome-0.2.0-f0e68c.svg)
+![Font Awesome](https://img.shields.io/badge/Font%20Awesome-%5E6.5.2-purple.svg)
 ![downloadjs](https://img.shields.io/badge/downloadjs-1.4.7-00ff00.svg)
 ![html-to-image](https://img.shields.io/badge/html--to--image-1.11.11-00ffff.svg)
 ![million](https://img.shields.io/badge/million-2.6.0--beta.7-ff00ff.svg)
