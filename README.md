@@ -26,7 +26,6 @@ https://business-cards-generator.netlify.app
 ![vite](https://img.shields.io/badge/vite-5.2.0-ff8c00.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/51555430-9552-4d43-8dea-6c8f7aa7cf8b/deploy-status)](https://app.netlify.com/sites/business-cards-generator/deploys)
 
-
 ## 📓 Table of Contents
 - [Business Card Generator](#business-card-generator)
   - [📓 Table of Contents](#-table-of-contents)
@@ -51,13 +50,12 @@ This is the Lighthouse Google report showcasing Performance 🚀, Accessibility 
 Contains About Me, Experience, Skills, Projects, Contact, Resume, Email, Footer  
 also contains bad humour!  
 
- 
 ## 🪛 Technologies used 
+
 | Technology              | Description                           | Link                                       |
 |-------------------------|---------------------------------------|--------------------------------------------|
 | Node.js                 | Server-side JavaScript runtime         | [Node.js](https://nodejs.org/)             |
 | NPM                     | Node.js Package Manager               | [NPM](https://www.npmjs.com/)             |
-
 | Font Awesome            | Icon set and toolkit                  | [Font Awesome](https://fontawesome.com/)   |
 | downloadjs              | File downloading utility              | [downloadjs](https://www.npmjs.com/package/downloadjs) |
 | html-to-image           | HTML to image conversion              | [html-to-image](https://www.npmjs.com/package/html-to-image) |
@@ -79,6 +77,7 @@ also contains bad humour!
 | eslint-plugin-react-refresh | ESLint plugin for React Refresh   | [eslint-plugin-react-refresh](https://www.npmjs.com/package/eslint-plugin-react-refresh) |
 | vite                    | Frontend build tool                  | [vite](https://vitejs.dev/)               |
 | Netlify                 | Web hosting and automation platform  | [Netlify](https://www.netlify.com/)       |
+
     
 ## 🖥️Installation 
 
@@ -98,74 +97,6 @@ and allows users to run the code on their local host
 npm run dev
 ```
 This sequence ensures that your client-side code is built before starting the server.
-
-
-Otherwise this app requires use of the Vite application to be used as well as the following installations.
-
-Vite
-```pip
-`npm create vite@latest`
-```
-
-EmailJS
-```pip
-npm i emailjs
-```
-
-EmailJS-Com
-```pip
-npm i emailjs-com
-```
-
-React Icons
-```pip
-npm i react-icons
-```
-
-React Simple Typewriter
-```pip
-npm i react-simple-typewriter
-```
-
-Bootstrap
-```pip
-npm i bootstrap
-```
-
-React-boostrap
-```pip
-npm i react-bootstrap
-```
-
-Animate.css
-```pip
-npm i animate.css
-```
-
-React on screen
-```pip
-npm i react-on-screen
-```
-
-ESLint
-```pip
-npm i eslint
-```
-
-ESLint Plugin React
-```pip
-npm i eslint-plugin-react
-```
-
-Netlify CLI
-```pip
-npm i netlify-cli -g
-```
-
-React DOM
-```pip
-npm i react-dom
-```
 
 Package.json dependencies ⚙️
 Screenshot of Header
