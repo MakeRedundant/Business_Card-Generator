@@ -72,8 +72,8 @@ export const Textarea = styled.textarea`
 `;
 
 export const Button = styled.button`
-    background-color: #ffb681;
-    color: #000000;
+    background-color: #9c50fa;
+    color: #ffffff;
     padding: 0.7rem 2rem;
     width: fit-content;
     font-size: 1rem;
@@ -82,7 +82,7 @@ export const Button = styled.button`
     border-radius: 0.4rem;
     margin-bottom: 2rem;
     cursor: ${props => props.disabled ? 'not-allowed' : 'pointer'};
-    opacity: ${props => props.disabled ? 0.3 : 1};
+    opacity: ${props => props.disabled ? 0.9 : 1};
 
     > i{
         margin-left: 1rem;
